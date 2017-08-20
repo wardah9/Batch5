@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="Batch5.ita.com.ImplicitIntentActivity">
+
+    <TextView
+        android:text="Implicit Intent"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TableLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <EditText
+                android:id="@+id/edt_url"
+                android:textSize="15sp"
+                android:hint="@string/enter_url"
+                android:layout_width="200dp"
+                android:layout_marginRight="40dp"/>
+            <Button
+                android:id="@+id/launch_btn"
+                android:onClick="onLaunchClicked"
+                android:text="@string/launch"/>
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:textSize="15sp"
+                android:id="@+id/edt_phoneNo"
+                android:hint="@string/enter_phone_no"
+                android:layout_width="200dp"
+                android:layout_marginRight="40dp"/>
+            <Button
+                android:id="@+id/call_btn"
+                android:onClick="onCallClicked"
+                android:text="@string/call"/>
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:textSize="15sp"
+
+                android:id="@+id/edt_keyword"
+                android:hint="@string/enter_keyword"
+                android:layout_width="200dp"
+                android:layout_marginRight="40dp"/>
+            <Button
+                android:id="@+id/search_btn"
+                android:onClick="onSearchClicked"
+                android:text="@string/search"/>
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:textSize="15sp"
+                android:id="@+id/edt_location"
+                android:hint="@string/location"
+                android:layout_width="200dp"
+                android:layout_marginRight="30dp"/>
+            <Button
+                android:id="@+id/map_btn"
+                android:onClick="onMapClicked"
+                android:text="@string/map"/>
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/viewContact_btn"
+        android:layout_marginTop="50dp"
+        android:text="@string/view_contacts"
+        android:layout_width="match_parent"
+        android:onClick="onViewContentClicked"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/sendSMS_btn"
+        android:text="@string/send_sms"
+        android:layout_width="match_parent"
+        android:onClick="onSendSMSClicked"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/sendEmail_btn"
+        android:text="@string/send_email"
+        android:layout_width="match_parent"
+        android:onClick="onSendEmailClicked"
+        android:layout_height="wrap_content" />
+</LinearLayout>

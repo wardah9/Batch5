@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:background="#26032e93"
+    android:layout_height="match_parent"
+    tools:context="Batch5.ita.com.StudentsListActivity">
+
+    <ListView
+        android:layout_margin="5dp"
+        android:dividerHeight="4dp"
+        android:id="@+id/students_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

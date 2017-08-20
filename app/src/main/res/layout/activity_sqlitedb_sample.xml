@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="19dp"
+    android:layout_height="match_parent"
+    tools:context="Batch5.ita.com.SQLitedbSampleActivity">
+
+    <EditText
+        android:drawableRight="@drawable/user_circle"
+        android:drawablePadding="5dp"
+        android:padding="10dp"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:hint="Enter name"
+        android:id="@+id/name_db"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:drawableRight="@drawable/phone"
+        android:drawablePadding="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/white"
+        android:padding="10dp"
+        android:id="@+id/phone_dp"
+        android:layout_width="match_parent"
+        android:hint="Enter Phone number"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Insert Data O_O"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:onClick="OnInsertDataClicked"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="View Data .."
+        android:textAllCaps="false"
+        android:onClick="OnViewDataClicked"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:id="@+id/list_db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

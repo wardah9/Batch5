@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#716fde">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Login"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/login_disc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login"
+            android:text="Silankan login degan menggunakan username dan password anada"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/UserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_disc"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="34dp"
+            android:paddingRight="5dp"
+            android:text="Username:" />
+
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/UserName"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:paddingRight="5dp"
+            android:text="Password:" />
+
+        <EditText
+            android:id="@+id/UserName_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_disc"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/UserName"
+            android:background="@android:color/white"
+            android:hint="$(username)"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/password_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/UserName_edit"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/password"
+            android:background="@android:color/white"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password_edit"
+            android:layout_toRightOf="@id/password"
+            android:text="Login" />
+
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password_edit"
+            android:layout_toRightOf="@id/login_btn"
+            android:text="cancel" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

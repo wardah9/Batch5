@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context="Batch5.ita.com.NotificationSampleActivity">
+
+    <Button
+        android:text="Show Notification ..."
+        android:textStyle="italic"
+        android:textAllCaps="false"
+        android:onClick="OnShowNotificationClicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Cancel Notification !"
+        android:textStyle="italic"
+        android:textAllCaps="false"
+        android:onClick="OnCancelNotificationClicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Call Notification !"
+        android:textStyle="italic"
+        android:textAllCaps="false"
+        android:onClick="OnCallNotificationClicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

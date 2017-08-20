@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:drawableLeft="@drawable/twitter_icon"
+        android:gravity="center|left"
+        android:textStyle="bold|italic"
+        android:textColor="#14628e"
+        android:layout_height="wrap_content"
+        android:background="#2ba1e4"
+        android:drawablePadding="5dp"
+        android:text="Have good weekend team1"/>
+</RelativeLayout>

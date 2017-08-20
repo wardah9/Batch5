@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/week4_layout1"
+    android:layout_height="match_parent"
+    tools:context="Batch5.ita.com.week4Activity">
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/week4_buttonView"
+        android:text="clickButton"
+        android:textAllCaps="false"
+        android:onClick="onButtonClicked"
+        android:textSize="15sp"
+        android:textColor="#5396d9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="welcome to sas mobile development"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/corner_signup"
+        android:id="@+id/week4_textView"
+        android:textStyle="bold|italic"
+        android:onClick="onTextClicked"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/week4_buttonView"/>
+
+    <ImageView
+        android:src="@drawable/cukki"
+        android:layout_width="260dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/week4_imageView"
+        android:onClick="onImageClicked"
+        android:layout_height="200dp"
+        android:layout_below="@id/week4_textView"/>
+    <EditText
+        android:hint="Enter Password"
+        android:id="@+id/week4_editText"
+        android:background="@android:color/white"
+        android:drawableRight="@drawable/lock16"
+        android:layout_marginLeft="20dp"
+        android:inputType="textPassword"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/week4_imageView"/>
+    <CheckBox
+        android:text="Remmember me ?"
+        android:checked="true"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/week4_checkBox"
+        android:layout_below="@id/week4_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioButton
+        android:text="Male"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/week4_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+[{
+		"studentName": "Ravi Tamada",
+		"studentEmail": "ravi8x@gmail.com",
+		"studentId": "10",
+		"studentGrade": "A"
+
+	},
+	{
+		"studentName": "Tommy",
+		"studentEmail": "tom128@gmail.com",
+		"studentId": "120",
+		"studentGrade": "c"
+
+	},
+	{
+		"studentName": "Dey",
+		"studentEmail": dey8@gmail.com",
+		"studentId": "60",
+		"studentGrade": "M"
+
+	},
+	{
+		"studentName": "Torty",
+		"studentEmail": "torty8@gmail.com",
+		"studentId": "90",
+		"studentGrade": "A"
+
+	}
+]

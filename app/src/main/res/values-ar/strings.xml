@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_to_ita">مرحبا بكم في واحه المعرفه</string>
+
+
+
+    <!--app-->
+    <string name="hello"> مرحبا </string>
+    <string name="name"> الاسم </string>
+    <string name="number"> الرقم </string>
+    <string name="button"> التالي </string>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_margin="30dp"
+        android:drawableLeft="@drawable/twitter_icon"
+        android:drawablePadding="7dp"
+        android:layout_width="wrap_content"
+        android:background="#57b1dd"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:paddingRight="7dp"
+        android:textSize="15sp"
+        android:textColor="@android:color/background_light"
+        android:text="Sign in with Twitter"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:text="Sign In with FaceBook"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:paddingRight="5dp"
+        android:drawableLeft="@drawable/facebook_3177271"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:background="#2c4284"
+        android:layout_height="wrap_content" />
+</LinearLayout>

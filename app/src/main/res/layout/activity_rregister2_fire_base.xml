@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="Batch5.ita.com.Rregister2FireBaseActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin = "20dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <EditText
+            android:background="@android:color/white"
+            android:padding="7dp"
+            android:hint="Name"
+            android:id="@+id/ed1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginTop="5dp"
+            android:background="@android:color/white"
+            android:padding="7dp"
+            android:hint="Email"
+            android:id="@+id/ed2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:background="@android:color/white"
+            android:padding="7dp"
+            android:hint="Password"
+            android:id="@+id/ed3"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:background="@android:color/white"
+            android:padding="7dp"
+            android:hint="Gender"
+            android:id="@+id/ed4"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:background="@android:color/white"
+            android:padding="7dp"
+            android:hint="Phone"
+            android:id="@+id/ed5"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:text="Sing-Up with Authentication"
+        android:textAllCaps="false"
+        android:onClick="OnSignupAth2Firebase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

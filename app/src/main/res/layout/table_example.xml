@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/first_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="one plus one is two" />
+
+        <Button
+            android:id="@+id/third_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="three" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/second_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="two" />
+
+        <Button
+            android:id="@+id/fourth_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="four" />
+    </TableRow>
+
+</TableLayout>

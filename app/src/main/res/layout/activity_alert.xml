@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Batch5.ita.com.AlertActivity">
+
+    <Button
+        android:text="Show Alert Dialog "
+        android:layout_centerInParent="true"
+        android:textStyle="bold|italic"
+        android:textColor="#b30606"
+        android:textAllCaps="false"
+        android:id="@+id/alert_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Show Progress Dialog "
+        android:layout_below="@id/alert_button"
+        android:textStyle="bold|italic"
+        android:layout_centerInParent="true"
+        android:textColor="#b30606"
+        android:textAllCaps="false"
+        android:id="@+id/progress_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Show Custom Dialog "
+        android:layout_below="@id/progress_button"
+        android:textStyle="bold|italic"
+        android:layout_centerInParent="true"
+        android:textColor="#b30606"
+        android:textAllCaps="false"
+        android:id="@+id/custom_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

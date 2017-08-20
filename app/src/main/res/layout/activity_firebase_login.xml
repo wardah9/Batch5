@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="Batch5.ita.com.FirebaseLoginActivity">
+
+
+    <EditText
+        android:id="@+id/email"
+        android:hint="Enter Email"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="5dp"
+        android:padding="8dp"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/password"
+        android:hint="Enter password"
+        android:layout_marginTop="3dp"
+        android:drawableLeft="@drawable/lock"
+        android:drawablePadding="5dp"
+        android:background="@android:color/white"
+        android:padding="8dp"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="Firebase UserRegister"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="OnAddUserFirebase"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Firebase UserLogin"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:onClick="OnLoginUserFirebase"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:text="Forget Password ?"
+        android:onClick="OnForgetPasswordClicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/update_Password"
+            android:hint="Enter new Password"
+            android:padding="8dp"
+            android:background="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginTop="8dp"
+            android:id="@+id/confirm_Password"
+            android:hint="Rewrite new Password"
+            android:padding="8dp"
+            android:background="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Firebase UpdatePassword"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false"
+            android:onClick="OnUpdatePasswordFriebase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/userInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="Firebase get UserInfo"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false"
+            android:onClick="OnUSerInfoFriebase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="Firebase get UserStatus"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false"
+            android:onClick="OnUSerStatusFriebase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="Firebase User sign_out"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false"
+            android:onClick="OnUserSign_outFriebase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  />
+
+
+    </LinearLayout>
+</LinearLayout>

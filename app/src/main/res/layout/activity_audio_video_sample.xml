@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Batch5.ita.com.AudioVideoSampleActivity">
+
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/VideoView1"/>
+
+    <Button
+        android:id="@+id/audioFromRaw"
+        android:textAllCaps="false"
+        android:onClick="playAudioFile"
+        android:layout_width="match_parent"
+        android:text="play audio from raw folder .."
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/audioFromSDcard"
+        android:textAllCaps="false"
+        android:onClick="playAudioFromSDcard"
+        android:layout_width="match_parent"
+        android:text="play audio from SD card .."
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/videoFromRaw"
+        android:textAllCaps="false"
+        android:onClick="playVideoFile"
+        android:layout_width="match_parent"
+        android:text="play video from raw folder .."
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/videoFromSDcard"
+        android:textAllCaps="false"
+        android:onClick="playVideoFromSDcard"
+        android:layout_width="match_parent"
+        android:text="play video from SD card .."
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

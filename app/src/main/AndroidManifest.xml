@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="Batch5.ita.com">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WelcomeScreen" />
+        <activity android:name=".WelcomeActivity" />
+        <activity android:name=".Add_Remove" />
+        <activity android:name=".InflatorActivity" />
+        <activity android:name=".AutoCompTextViewActivity" />
+        <activity android:name=".week4Activity" />
+        <activity android:name=".secondScreen" />
+        <activity android:name=".ImplicitIntentActivity" />
+        <activity android:name=".CameraSampleActivity" />
+        <activity android:name=".CustomAdapterActivity" />
+        <activity android:name=".BookMealsActivity" />
+        <activity android:name=".AlertActivity" />
+        <activity android:name=".MaterialDesignComponentsActivity" />
+        <activity android:name=".ProfileEditerActivity" />
+        <activity android:name=".MenuSampleActivity" />
+        <activity android:name=".ContextMenuActivity" />
+        <activity android:name=".SharedPrefrenceActivity" />
+        <activity android:name=".SharedPrefrenceRetrieveActivity" />
+        <activity android:name=".WelcomeScreenSharedActivity" />
+        <activity android:name=".TermsAndConditionsActivity" />
+        <activity android:name=".HomeScreenSharedActivity" />
+        <activity android:name=".ApplicationSharedActivity" />
+        <activity android:name=".ElementTransitionActivity" />
+        <activity android:name=".NotificationSampleActivity" />
+        <activity android:name=".FileSampleActivity" />
+        <activity android:name=".SQLitedbSampleActivity" />
+        <activity android:name=".BrodcastSmsSpeachActivity" />
+        <!-- this is map -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapSampleActivity"
+            android:label="@string/title_activity_map_sample" />
+        <!-- continu classes -->
+        <activity android:name=".AudioVideoSampleActivity" />
+        <activity android:name=".GifImagesSample" />
+        <activity android:name=".LocalizationSAmpleActivity" />
+        <activity android:name=".ChangeLanguageActivity" />
+        <activity android:name=".FragmentsFromXML" />
+        <activity android:name=".FragmentsForXML2" />
+        <activity android:name=".DynamicFragmentSample" />
+        <activity android:name=".LandscabeFragmentHandleActivity" />
+        <activity
+            android:name=".FullScreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_full_screen"
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name=".FullScreenActivity2" />
+        <activity android:name=".HelloScreenActivity" />
+        <activity
+            android:name=".RegistrationRotatePageActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity android:name=".DownloadImageActivity" />
+        <activity android:name=".CardListActivity" />
+        <activity android:name=".FileSample" />
+        <activity android:name=".StudentsListActivity" />
+        <activity android:name=".FirebaseLoginActivity" />
+        <activity android:name=".PhoneNumberAuthenticationFirebaseActivity" />
+        <activity android:name=".FirebaseDatabaseActivity" />
+        <activity android:name=".Rregister2FireBaseActivity" />
+
+        <!-- Sample Project using firebase -->
+        <activity android:name="project.batch5.ita.com.FirebaseWelcomeScreenActivity"/>
+        <activity android:name="project.batch5.ita.com.FriebaseLoginActivity" />
+        <activity android:name="project.batch5.ita.com.FirebaseAdminScreenActivity" >
+
+        </activity>
+        <activity android:name="project.batch5.ita.com.FirebaseProductsListActivity" />
+        <activity android:name="project.batch5.ita.com.FirebaseUSerProfileActivity" />
+        <activity android:name="project.batch5.ita.com.FirebaseUSerRegisterActivity" />
+        <activity android:name="project.batch5.ita.com.FirebaseForgetPasswordActivity" />
+
+        <!-- this is storage sample of download and upload image to firebase -->
+        <activity android:name=".UploadImageFirebase" />
+        <activity android:name="project.batch5.ita.com.visibilitySample">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

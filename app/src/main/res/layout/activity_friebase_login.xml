@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="right"
+    tools:context="project.batch5.ita.com.FriebaseLoginActivity">
+
+    <LinearLayout
+        android:layout_margin = "20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/emailEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawablePadding="1dp"
+            android:drawableRight="@drawable/contacts16"
+            android:hint="Enter Email"
+            android:padding="10dp"
+            android:singleLine="true" />
+        <EditText
+            android:layout_marginTop="5dp"
+            android:id="@+id/password_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawablePadding="30dp"
+            android:drawableRight="@drawable/lock16"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Register .."
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:onClick="OnRegisterUSer"
+            android:layout_height="match_parent" />
+        <Button
+            android:text="Login"
+            android:layout_weight="1"
+            android:onClick="OnLoginUser"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:gravity="right"
+        android:onClick="OnForgetPassword"
+        android:text="Forget Password ?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
