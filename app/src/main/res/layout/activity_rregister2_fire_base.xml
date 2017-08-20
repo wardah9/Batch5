@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="Batch5.ita.com.Rregister2FireBaseActivity">
+    tools:context="batch5.ita.com.Rregister2FireBaseActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

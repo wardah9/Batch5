@@ -6,18 +6,18 @@
     android:weightSum="2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="Batch5.ita.com.FragmentsForXML2">
+    tools:context="batch5.ita.com.FragmentsForXML2">
 
     <fragment
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:id="@+id/first_fragment_xml"
-        class="Batch5.ita.com.fragmentsXML.FirstFragment"/>
+        class="batch5.ita.com.fragmentsXML.FirstFragment"/>
     <fragment
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:id="@+id/second_fragment"
-        class="Batch5.ita.com.fragmentsXML.SecondFragment"/>
+        class="batch5.ita.com.fragmentsXML.SecondFragment"/>
 </LinearLayout>

@@ -11,8 +11,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 
-import Batch5.ita.com.FirebaseLoginActivity;
-import Batch5.ita.com.R;
+import batch5.ita.com.R;
 
 public class FirebaseForgetPasswordActivity extends AppCompatActivity {
 

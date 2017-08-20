@@ -5,7 +5,7 @@
     android:gravity="center"
     android:background="#fdaa3d"
     android:layout_height="match_parent"
-    tools:context="Batch5.ita.com.fragmentsXML.ThirdFragment">
+    tools:context="batch5.ita.com.fragmentsXML.ThirdFragment">
 
     <TextView
         android:layout_width="match_parent"

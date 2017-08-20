@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="Batch5.ita.com.HelloScreenActivity">
+    tools:context="batch5.ita.com.HelloScreenActivity">
 
     <LinearLayout
         android:layout_width="wrap_content"

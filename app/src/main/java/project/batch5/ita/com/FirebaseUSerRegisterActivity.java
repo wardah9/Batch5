@@ -18,7 +18,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import Batch5.ita.com.R;
+import batch5.ita.com.R;
 import project.batch5.ita.com.model.PUsers;
 
 public class FirebaseUSerRegisterActivity extends AppCompatActivity {

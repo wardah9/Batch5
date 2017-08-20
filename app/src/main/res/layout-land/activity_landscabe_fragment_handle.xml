@@ -7,14 +7,14 @@
 
     <fragment
         android:id="@+id/fragment1_1"
-        class="Batch5.ita.com.fragmentsXML.FirstFragment"
+        class="batch5.ita.com.fragmentsXML.FirstFragment"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1" />
 
     <fragment
         android:id="@+id/fragment2_1"
-        class="Batch5.ita.com.fragmentsXML.SecondFragment"
+        class="batch5.ita.com.fragmentsXML.SecondFragment"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1" />

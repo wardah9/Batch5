@@ -6,7 +6,7 @@
 
     android:background="#26032e93"
     android:layout_height="match_parent"
-    tools:context="Batch5.ita.com.StudentsListActivity">
+    tools:context="batch5.ita.com.StudentsListActivity">
 
     <ListView
         android:layout_margin="5dp"

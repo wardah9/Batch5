@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context="Batch5.ita.com.CameraSampleActivity">
+    tools:context="batch5.ita.com.CameraSampleActivity">
 
     <ImageView
         android:id="@+id/image"

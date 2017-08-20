@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     android:id="@+id/rl"
-    tools:context="Batch5.ita.com.InflatorActivity">
+    tools:context="batch5.ita.com.InflatorActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:id="@+id/week4_layout1"
     android:layout_height="match_parent"
-    tools:context="Batch5.ita.com.week4Activity">
+    tools:context="batch5.ita.com.week4Activity">
 
     <Button
         android:layout_marginTop="40dp"

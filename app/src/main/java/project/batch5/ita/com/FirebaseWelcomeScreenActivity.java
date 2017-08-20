@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import Batch5.ita.com.R;
+import batch5.ita.com.R;
 
 public class FirebaseWelcomeScreenActivity extends AppCompatActivity {
 

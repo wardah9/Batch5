@@ -22,7 +22,7 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
-import Batch5.ita.com.R;
+import batch5.ita.com.R;
 import project.batch5.ita.com.model.FireBaseProducts;
 
 public class FirebaseProductsListActivity extends AppCompatActivity {

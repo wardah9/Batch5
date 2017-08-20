@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:layout_height="match_parent"
-    tools:context="Batch5.ita.com.NotificationSampleActivity">
+    tools:context="batch5.ita.com.NotificationSampleActivity">
 
     <Button
         android:text="Show Notification ..."

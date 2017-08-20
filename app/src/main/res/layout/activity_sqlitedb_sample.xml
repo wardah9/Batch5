@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:layout_margin="19dp"
     android:layout_height="match_parent"
-    tools:context="Batch5.ita.com.SQLitedbSampleActivity">
+    tools:context="batch5.ita.com.SQLitedbSampleActivity">
 
     <EditText
         android:drawableRight="@drawable/user_circle"

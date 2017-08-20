@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context="Batch5.ita.com.FirebaseLoginActivity">
+    tools:context="batch5.ita.com.FirebaseLoginActivity">
 
 
     <EditText

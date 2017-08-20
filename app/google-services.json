@@ -10,15 +10,23 @@
       "client_info": {
         "mobilesdk_app_id": "1:1008277858091:android:74233ff5108f8c34",
         "android_client_info": {
-          "package_name": "Batch5.ita.com"
+          "package_name": "batch5.ita.com"
         }
       },
       "oauth_client": [
         {
+          "client_id": "1008277858091-kerfg34rslt2c4livnqbsvn4pto9o80v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "batch5.ita.com",
+            "certificate_hash": "9ce3be2b94b52603c2cfc9b639e2b8d61c433399"
+          }
+        },
+        {
           "client_id": "1008277858091-1ropj4prmvmcl3qko40hn4c7gn1567ik.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "Batch5.ita.com",
+            "package_name": "batch5.ita.com",
             "certificate_hash": "c1487402f5751969f334bebfd4dacb2cb918e6f0"
           }
         },

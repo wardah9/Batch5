@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:id="@+id/secondScreen_id"
     android:layout_height="match_parent"
-    tools:context="Batch5.ita.com.secondScreen">
+    tools:context="batch5.ita.com.secondScreen">
 
     <ListView
         android:layout_marginTop="40dp"

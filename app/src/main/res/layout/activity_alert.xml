@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="Batch5.ita.com.AlertActivity">
+    tools:context="batch5.ita.com.AlertActivity">
 
     <Button
         android:text="Show Alert Dialog "

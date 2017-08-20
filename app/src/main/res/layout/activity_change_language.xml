@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context="Batch5.ita.com.ChangeLanguageActivity">
+    tools:context="batch5.ita.com.ChangeLanguageActivity">
 
     <TextView
         android:text="select language .. "

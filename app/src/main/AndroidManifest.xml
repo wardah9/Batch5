@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="Batch5.ita.com">
+    package="batch5.ita.com">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
@@ -20,68 +20,68 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WelcomeScreen" />
-        <activity android:name=".WelcomeActivity" />
-        <activity android:name=".Add_Remove" />
-        <activity android:name=".InflatorActivity" />
-        <activity android:name=".AutoCompTextViewActivity" />
-        <activity android:name=".week4Activity" />
-        <activity android:name=".secondScreen" />
-        <activity android:name=".ImplicitIntentActivity" />
-        <activity android:name=".CameraSampleActivity" />
-        <activity android:name=".CustomAdapterActivity" />
-        <activity android:name=".BookMealsActivity" />
-        <activity android:name=".AlertActivity" />
-        <activity android:name=".MaterialDesignComponentsActivity" />
-        <activity android:name=".ProfileEditerActivity" />
-        <activity android:name=".MenuSampleActivity" />
-        <activity android:name=".ContextMenuActivity" />
-        <activity android:name=".SharedPrefrenceActivity" />
-        <activity android:name=".SharedPrefrenceRetrieveActivity" />
-        <activity android:name=".WelcomeScreenSharedActivity" />
-        <activity android:name=".TermsAndConditionsActivity" />
-        <activity android:name=".HomeScreenSharedActivity" />
-        <activity android:name=".ApplicationSharedActivity" />
-        <activity android:name=".ElementTransitionActivity" />
-        <activity android:name=".NotificationSampleActivity" />
-        <activity android:name=".FileSampleActivity" />
-        <activity android:name=".SQLitedbSampleActivity" />
-        <activity android:name=".BrodcastSmsSpeachActivity" />
+        <activity android:name="batch5.ita.com.WelcomeScreen" />
+        <activity android:name="batch5.ita.com.WelcomeActivity" />
+        <activity android:name="batch5.ita.com.Add_Remove" />
+        <activity android:name="batch5.ita.com.InflatorActivity" />
+        <activity android:name="batch5.ita.com.AutoCompTextViewActivity" />
+        <activity android:name="batch5.ita.com.week4Activity" />
+        <activity android:name="batch5.ita.com.secondScreen" />
+        <activity android:name="batch5.ita.com.ImplicitIntentActivity" />
+        <activity android:name="batch5.ita.com.CameraSampleActivity" />
+        <activity android:name="batch5.ita.com.CustomAdapterActivity" />
+        <activity android:name="batch5.ita.com.BookMealsActivity" />
+        <activity android:name="batch5.ita.com.AlertActivity" />
+        <activity android:name="batch5.ita.com.MaterialDesignComponentsActivity" />
+        <activity android:name="batch5.ita.com.ProfileEditerActivity" />
+        <activity android:name="batch5.ita.com.MenuSampleActivity" />
+        <activity android:name="batch5.ita.com.ContextMenuActivity" />
+        <activity android:name="batch5.ita.com.SharedPrefrenceActivity" />
+        <activity android:name="batch5.ita.com.SharedPrefrenceRetrieveActivity" />
+        <activity android:name="batch5.ita.com.WelcomeScreenSharedActivity" />
+        <activity android:name="batch5.ita.com.TermsAndConditionsActivity" />
+        <activity android:name="batch5.ita.com.HomeScreenSharedActivity" />
+        <activity android:name="batch5.ita.com.ApplicationSharedActivity" />
+        <activity android:name="batch5.ita.com.ElementTransitionActivity" />
+        <activity android:name="batch5.ita.com.NotificationSampleActivity" />
+        <activity android:name="batch5.ita.com.FileSampleActivity" />
+        <activity android:name="batch5.ita.com.SQLitedbSampleActivity" />
+        <activity android:name="batch5.ita.com.BrodcastSmsSpeachActivity" />
         <!-- this is map -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".MapSampleActivity"
+            android:name="batch5.ita.com.MapSampleActivity"
             android:label="@string/title_activity_map_sample" />
         <!-- continu classes -->
-        <activity android:name=".AudioVideoSampleActivity" />
-        <activity android:name=".GifImagesSample" />
-        <activity android:name=".LocalizationSAmpleActivity" />
-        <activity android:name=".ChangeLanguageActivity" />
-        <activity android:name=".FragmentsFromXML" />
-        <activity android:name=".FragmentsForXML2" />
-        <activity android:name=".DynamicFragmentSample" />
-        <activity android:name=".LandscabeFragmentHandleActivity" />
+        <activity android:name="batch5.ita.com.AudioVideoSampleActivity" />
+        <activity android:name="batch5.ita.com.GifImagesSample" />
+        <activity android:name="batch5.ita.com.LocalizationSAmpleActivity" />
+        <activity android:name="batch5.ita.com.ChangeLanguageActivity" />
+        <activity android:name="batch5.ita.com.FragmentsFromXML" />
+        <activity android:name="batch5.ita.com.FragmentsForXML2" />
+        <activity android:name="batch5.ita.com.DynamicFragmentSample" />
+        <activity android:name="batch5.ita.com.LandscabeFragmentHandleActivity" />
         <activity
-            android:name=".FullScreenActivity"
+            android:name="batch5.ita.com.FullScreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_full_screen"
             android:theme="@style/FullscreenTheme" />
-        <activity android:name=".FullScreenActivity2" />
-        <activity android:name=".HelloScreenActivity" />
+        <activity android:name="batch5.ita.com.FullScreenActivity2" />
+        <activity android:name="batch5.ita.com.HelloScreenActivity" />
         <activity
-            android:name=".RegistrationRotatePageActivity"
+            android:name="batch5.ita.com.RegistrationRotatePageActivity"
             android:configChanges="orientation|keyboardHidden" />
-        <activity android:name=".DownloadImageActivity" />
-        <activity android:name=".CardListActivity" />
-        <activity android:name=".FileSample" />
-        <activity android:name=".StudentsListActivity" />
-        <activity android:name=".FirebaseLoginActivity" />
-        <activity android:name=".PhoneNumberAuthenticationFirebaseActivity" />
-        <activity android:name=".FirebaseDatabaseActivity" />
-        <activity android:name=".Rregister2FireBaseActivity" />
+        <activity android:name="batch5.ita.com.DownloadImageActivity" />
+        <activity android:name="batch5.ita.com.CardListActivity" />
+        <activity android:name="batch5.ita.com.FileSample" />
+        <activity android:name="batch5.ita.com.StudentsListActivity" />
+        <activity android:name="batch5.ita.com.FirebaseLoginActivity" />
+        <activity android:name="batch5.ita.com.PhoneNumberAuthenticationFirebaseActivity" />
+        <activity android:name="batch5.ita.com.FirebaseDatabaseActivity" />
+        <activity android:name="batch5.ita.com.Rregister2FireBaseActivity" />
 
         <!-- Sample Project using firebase -->
         <activity android:name="project.batch5.ita.com.FirebaseWelcomeScreenActivity"/>
@@ -95,7 +95,7 @@
         <activity android:name="project.batch5.ita.com.FirebaseForgetPasswordActivity" />
 
         <!-- this is storage sample of download and upload image to firebase -->
-        <activity android:name=".UploadImageFirebase" />
+        <activity android:name="batch5.ita.com.UploadImageFirebase" />
         <activity android:name="project.batch5.ita.com.visibilitySample">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

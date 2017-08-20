@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import Batch5.ita.com.R;
+import batch5.ita.com.R;
 import project.batch5.ita.com.model.FireBaseProducts;
 
 public class FirebaseAdminScreenActivity extends AppCompatActivity {

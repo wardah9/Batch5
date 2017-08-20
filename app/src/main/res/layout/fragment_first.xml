@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="#a594d7"
     android:gravity="center"
-    tools:context="Batch5.ita.com.fragmentsXML.FirstFragment">
+    tools:context="batch5.ita.com.fragmentsXML.FirstFragment">
 
 
     <TextView

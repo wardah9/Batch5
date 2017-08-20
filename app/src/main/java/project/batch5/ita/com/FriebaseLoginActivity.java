@@ -15,7 +15,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-import Batch5.ita.com.R;
+import batch5.ita.com.R;
 
 public class FriebaseLoginActivity extends AppCompatActivity {
 

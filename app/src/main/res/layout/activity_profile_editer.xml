@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="Batch5.ita.com.ProfileEditerActivity">
+    tools:context="batch5.ita.com.ProfileEditerActivity">
 
     <RelativeLayout
         android:layout_centerInParent="true"
