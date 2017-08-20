@@ -38,8 +38,8 @@ import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.ArrayList;
 
-import batch5.ita.com.R;
 import project.batch5.ita.com.model.FireBaseProducts;
+import batch5.ita.com.R;
 
 public class visibilitySample extends AppCompatActivity {
 
