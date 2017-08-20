@@ -122,6 +122,7 @@ public class visibilitySample extends AppCompatActivity {
     }
 
      int x=0;
+    int y=0;
     private void viewItemFromFirebase() {
 
         DatabaseReference pmyRef;
@@ -136,35 +137,41 @@ public class visibilitySample extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
 
-                ++x;
-                Log.v("firbase", "i am here "+x);
 
-                FbProductsList = new ArrayList<FireBaseProducts>();
-                for (DataSnapshot postSnapShot : dataSnapshot.getChildren()) {
+                if(x==1){
 
-                    Log.v("firbase", "key is 0: " + postSnapShot.getKey()
-                            + " value  is " + postSnapShot.getValue());
+                }else{
+                    x=1;
+                    Log.v("firbase", "i am here from biewitem "+x);
 
-                    FireBaseProducts fireBaseProducts = postSnapShot.getValue(FireBaseProducts.class);
+                    FbProductsList = new ArrayList<FireBaseProducts>();
+                    for (DataSnapshot postSnapShot : dataSnapshot.getChildren()) {
 
-                    //just to know the retriveing value
-                    assert fireBaseProducts != null;
-                    fireBaseProducts.getProductFbaseId();
-                    fireBaseProducts.getProductFbNAme();
-                    fireBaseProducts.getProductFbPrice();
-                    fireBaseProducts.getProductFbRollno();
-                    fireBaseProducts.getProductFbImg();
+                        Log.v("firbase", "key is 0: " + postSnapShot.getKey()
+                                + " value  is " + postSnapShot.getValue());
 
-                    FbProductsList.add(fireBaseProducts);
+                        FireBaseProducts fireBaseProducts = postSnapShot.getValue(FireBaseProducts.class);
 
+                        //just to know the retriveing value
+                        assert fireBaseProducts != null;
+                        fireBaseProducts.getProductFbaseId();
+                        fireBaseProducts.getProductFbNAme();
+                        fireBaseProducts.getProductFbPrice();
+                        fireBaseProducts.getProductFbRollno();
+                        fireBaseProducts.getProductFbImg();
+
+                        FbProductsList.add(fireBaseProducts);
+
+
+                    }
+                    nameFb.setText(FbProductsList.get(0).getProductFbNAme());
+                    fb_id = FbProductsList.get(0).getProductFbaseId();
+                    genderFb.setText(FbProductsList.get(0).getProductFbPrice());
+                    traking_no_fb.setText(FbProductsList.get(0).getProductFbRollno());
+
+                    Picasso.with(visibilitySample.this).load(FbProductsList.get(0).getProductFbImg()).into(imageview_firebasesample);
 
                 }
-                nameFb.setText(FbProductsList.get(0).getProductFbNAme());
-                fb_id = FbProductsList.get(0).getProductFbaseId();
-                genderFb.setText(FbProductsList.get(0).getProductFbPrice());
-                traking_no_fb.setText(FbProductsList.get(0).getProductFbRollno());
-
-                Picasso.with(visibilitySample.this).load(FbProductsList.get(0).getProductFbImg()).into(imageview_firebasesample);
 
             }
 
@@ -204,6 +211,7 @@ public class visibilitySample extends AppCompatActivity {
 
     public void OnUpdate1Clicked(View view) {
 
+
         FirebaseStorage storage = FirebaseStorage.getInstance();
         final StorageReference mStorageRef = storage.getReferenceFromUrl("gs://batch5-9e3b4.appspot.com");
         final FirebaseDatabase pdatabase = FirebaseDatabase.getInstance();
@@ -215,18 +223,24 @@ public class visibilitySample extends AppCompatActivity {
             public void onDataChange(DataSnapshot dataSnapshot) {
 
 
-                FbProductsList = new ArrayList<FireBaseProducts>();
-                for (DataSnapshot postSnapShot : dataSnapshot.getChildren()) {
 
-                    Log.v("firbase", "key is 1: " + postSnapShot.getKey()
-                            + " value  is " + postSnapShot.getValue());
+                if(y==1){
 
-                    FireBaseProducts fireBaseProducts = postSnapShot.getValue(FireBaseProducts.class);
+                }else {
+                    y = 1;
+                    Log.v("firbase", "i am here from btnupdate "+y);
+                    FbProductsList = new ArrayList<FireBaseProducts>();
+                    for (DataSnapshot postSnapShot : dataSnapshot.getChildren()) {
 
-                    FbProductsList.add(fireBaseProducts);
+                        Log.v("firbase", "key is 1: " + postSnapShot.getKey()
+                                + " value  is " + postSnapShot.getValue());
+
+                        FireBaseProducts fireBaseProducts = postSnapShot.getValue(FireBaseProducts.class);
+
+                        FbProductsList.add(fireBaseProducts);
 
 
-                }
+                    }
 
 //                product = new FireBaseProducts();
 //                product.setProductFbNAme(nameFb.getText().toString());
@@ -240,37 +254,39 @@ public class visibilitySample extends AppCompatActivity {
 //                pmyRef.child(fb_id).setValue(product);
 //
 //              fb_id = FbProductsList.get(0).getProductFbaseId();
-                int i = 0;
+                    int i = 0;
 
-                StorageReference riversRef = mStorageRef.child(i + ".jpg");
-                riversRef.putFile(filePath)
-                        .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
-                            @Override
-                            public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                                // Get a URL to the uploaded content
-                                Uri downloadUrl = taskSnapshot.getDownloadUrl();
+                    StorageReference riversRef = mStorageRef.child(i + ".jpg");
+                    riversRef.putFile(filePath)
+                            .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+                                @Override
+                                public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+                                    // Get a URL to the uploaded content
+                                    Uri downloadUrl = taskSnapshot.getDownloadUrl();
 
-                                product = new FireBaseProducts();
-                                product.setProductFbNAme(nameFb.getText().toString());
-                                product.setProductFbPrice(genderFb.getText().toString());
-                                product.setProductFbaseId(fb_id);
-                                assert downloadUrl != null;
-                                product.setProductFbImg(downloadUrl.toString());
-                                product.setProductFbRollno(traking_no_fb.getText().toString());
+                                    product = new FireBaseProducts();
+                                    product.setProductFbNAme(nameFb.getText().toString());
+                                    product.setProductFbPrice(genderFb.getText().toString());
+                                    product.setProductFbaseId(fb_id);
+                                    assert downloadUrl != null;
+                                    product.setProductFbImg(downloadUrl.toString());
+                                    product.setProductFbRollno(traking_no_fb.getText().toString());
 
-                                pmyRef.child(fb_id).setValue(product);
+                                    pmyRef.child(fb_id).setValue(product);
 
-                            }
-                        })
-                        .addOnFailureListener(new OnFailureListener() {
-                            @Override
-                            public void onFailure(@NonNull Exception exception) {
-                                // Handle unsuccessful uploads
+                                }
+                            })
+                            .addOnFailureListener(new OnFailureListener() {
+                                @Override
+                                public void onFailure(@NonNull Exception exception) {
+                                    // Handle unsuccessful uploads
 
-                                Log.d("firebase", exception.toString());
+                                    Log.d("firebase", exception.toString());
 
-                            }
-                        });
+                                }
+                            });
+                }
+
 
 
             }
